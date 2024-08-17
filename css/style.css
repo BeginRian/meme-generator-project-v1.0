@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.container {
+    font-family: 'Roboto','sans-serif';
+    text-align: center;
+}
+
+.container img {
+    height: 430px;
+    object-fit: cover;
+}
+
+.container .btn {
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+    background: #695b5bfe;
+    color: #f4f4f4;
+    border-radius: 10px;
+    margin: 24px 0;
+    font-size: 20px;
+    transition: .5s;
+    box-shadow: 0 0 20px lightgray;
+}
+
+.container .btn:hover {
+    background: #cf3e3e;
+    padding: 15px 30px;
+}
